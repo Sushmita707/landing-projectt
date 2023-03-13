@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+}
+.Header{
+    color:white;
+    background-color: #1F2837;
+}
+.Headertop{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 100px;
+    margin-right: 100px;
+    padding: 20px;
+
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap: 20px;
+}
+.headerlogo{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.title{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8;
+    max-width: 444px;
+}
+.titlesub{
+    font-size: 18px;
+    color: E5E7EB;
+}
+.headerbody{
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+
+img{
+    max-height: 200px;
+    margin-left: 44px;
+}
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin:50px ;
+}
+.boxes{
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+    
+}
+.square{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    gap: 5px;
+}
+.section2{
+    margin: 50px;
+    text-align: center;
+
+}
+.quote{
+     
+    font-size: 35px;
+    font-style: italic;
+    background-color: gray;
+
+
+}
+.quote-author{
+    background-color: gray;
+    font-weight: bold;
+    align-self: flex-end;
+
+}
+.section4{
+    padding: 88px 188px;
+}
+.call-action{
+    background-color:blue;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    display: 33px 77px;
+    justify-content: space-around;
+}
+
+    
+
+
+.call-action-button{
+    background-color:#3882F6;
+    color: white;
+    padding:2px solid white;
+    border-radius: 8px;
+    border: none;
+    
+}  
+.footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    align-items:center;
+    padding:20px;
+    font-size:8px ;
+
+}
