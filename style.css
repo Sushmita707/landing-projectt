@@ -37,7 +37,8 @@ a{
 }
 .titlesub{
     font-size: 18px;
-    color: E5E7EB;
+    color: #E5E7EB;
+    max-width: 444px;
 }
 .headerbody{
     display: flex;
@@ -46,8 +47,10 @@ a{
 }
 
 
-img{
-    max-height: 200px;
+.hbright{
+    max-height: 4500x;
+    margin-left: 500px;
+    max-width: 400px;
     margin-left: 44px;
 }
 button{
@@ -68,7 +71,7 @@ button{
     font-size: 18px;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 40px;
     
     
 }
@@ -84,48 +87,76 @@ button{
     text-align: center;
 
 }
+.box{
+    width: 150px;
+}
+.section3{
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    
+}
 .quote{
      
-    font-size: 35px;
-    font-style: italic;
-    background-color: gray;
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
+    flex-direction: column;
+    font-weight: lighter;
+    margin: 20px;
+  
 
 
 }
 .quote-author{
-    background-color: gray;
+    color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+    float:right;
 
 }
 .section4{
     padding: 88px 188px;
+   
 }
-.call-action{
-    background-color:blue;
+.class-action{
+    background-color:#3882F6;
     border-radius: 8px;
     color: #F9FAF8;
     display: flex;
-    display: 33px 77px;
+    padding: 33px 77px;
     justify-content: space-around;
+   
+    
 }
 
-    
-
-
-.call-action-button{
+    .call-action-button{
     background-color:#3882F6;
     color: white;
-    padding:2px solid white;
-    border-radius: 8px;
-    border: none;
+    padding:5px 20px;
+    border-radius: 4px;
+    border: 2px solid white;
+
+    
+    
     
 }  
 .footer{
     background-color: #1F2937;
     color:#F9FAF8;
-    align-items:center;
-    padding:20px;
-    font-size:8px ;
+    align-items:flex-end;
+    padding:30px;
+    font-size:20px ;
+    text-align: center;
 
+}
+.action{
+    background-color:#3882F6;
+    margin: 50px;
+    padding: 50px;
+    height: auto;
 }
